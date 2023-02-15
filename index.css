@@ -1,0 +1,47 @@
+
+    box-sizing border-box
+  
+  
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #1c1c1c;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  nav {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Main styles */
+  .hero {
+    background-image: url('https://source.unsplash.com/nzQZVEgwV7Q/1600x900');
+    background-size: cover;
+    color: white;
+    text-align: center
+  }
