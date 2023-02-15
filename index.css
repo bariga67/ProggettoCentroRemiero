@@ -10,19 +10,19 @@
   
   /* Header styles */
   header {
-    background-color: #1c1c1c;
-    color: white;
+    background-color: #3f50e9;
+    color: rgb(7, 3, 3);
     text-align: center;
-    padding: 50px 0;
+    padding: 70px 0;
   }
   
   nav {
-    margin: 0;
+    margin: 30;
   }
   
   nav ul {
     list-style: none;
-    margin: 0;
+    margin: 30;
     padding: 0;
     display: flex;
     justify-content: center;
@@ -33,7 +33,7 @@
   }
   
   nav a {
-    color: white;
+    color: rgb(12, 7, 7);
     text-decoration: none;
     font-weight: bold;
   }
@@ -42,6 +42,6 @@
   .hero {
     background-image: url('https://source.unsplash.com/nzQZVEgwV7Q/1600x900');
     background-size: cover;
-    color: white;
+    color: rgb(22, 5, 5);
     text-align: center
   }
