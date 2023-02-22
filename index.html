@@ -1,58 +1,61 @@
 <html>
   <head>
-    <title>Società Remiero - Sito web di Canottaggio</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Sito di Canottaggio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
     <header>
+      <h1>Sito di Canottaggio</h1>
       <nav>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Chi siamo</a></li>
-          <li><a href="#">Attività</a></li>
-          <li><a href="#">Eventi</a></li>
-          <li><a href="#">Contatti</a></li>
+          <li><a href="#chi-siamo">Chi siamo</a></li>
+          <li><a href="#cosa-facciamo">Cosa facciamo</a></li>
+          <li><a href="#modello-iscrizione">Modello di iscrizione</a></li>
         </ul>
       </nav>
-      <h1>Società Remiero</h1>
-      <p>Il canottaggio come stile di vita</p>
     </header>
-
     <main>
-      <section class="hero">
-        <h2>Unisciti a noi per scoprire la bellezza del canottaggio</h2>
-        <p>La Società Remiero è un'associazione sportiva di canottaggio che promuove la pratica di questo sport sia a livello agonistico che amatoriale. Scopri le nostre attività!</p>
-        <a href="#" class="cta-button">Scopri di più</a>
+      <section id="chi-siamo">
+        <h2>Chi siamo</h2>
+        <p>Noi siamo il Centro Remiero, un'associazione sportiva che si occupa di promuovere il canottaggio tra i giovani e gli adulti della nostra città.</p>
+        <p>Il nostro obiettivo è di far conoscere questo sport e di diffonderne i valori, come l'impegno, la determinazione, il rispetto e la collaborazione.</p>
       </section>
-
-      <section class="activities">
-        <h2>Le nostre attività</h2>
-        <ul>
-          <li>Canottaggio amatoriale</li>
-          <li>Canottaggio agonistico</li>
-          <li>Corsi di avviamento al canottaggio</li>
-          <li>Passeggiate in barca</li>
-        </ul>
+      <section id="cosa-facciamo">
+        <h2>Cosa facciamo</h2>
+        <p>Offriamo corsi di canottaggio per tutti i livelli, dai principianti ai più esperti.</p>
+        <p>Organizziamo anche eventi e gare di canottaggio per coinvolgere la comunità e promuovere lo sport a livello locale e nazionale.</p>
       </section>
+      <section id="modello-iscrizione">
+        <h2>Modello di iscrizione</h2>
+        <form>
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" required>
 
-      <section class="events">
-        <h2>I nostri eventi</h2>
-        <ul>
-          <li>Regata della Società Remiero - 15 maggio</li>
-          <li>Torneo interno di canottaggio - 1 luglio</li>
-          <li>Barbecue sociale sulla spiaggia - 15 agosto</li>
-        <li></li>
-        <li></li>
-        <li></li>
-        
-        </ul>
+          <label for="cognome">Cognome:</label>
+          <input type="text" id="cognome" name="cognome" required>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="livello">Livello:</label>
+          <select id="livello" name="livello">
+            <option value="principiante">Principiante</option>
+            <option value="intermedio">Intermedio</option>
+            <option value="avanzato">Avanzato</option>
+          </select>
+
+          <button type="submit">Invia</button>
+        </form>
+      </section>
+      <section id="immagini-canottaggio">
+        <h2>Immagini di Canottaggio</h2>
+        <div class="gallery">
+          <img src="canottaggio1.jpg" alt="Canottaggio">
+          <img src="canottaggio2.jpg" alt="Canottaggio">
+          <img src="canottaggio3.jpg" alt="Canottaggio">
+          <img src="canottaggio4.jpg" alt="Canottaggio">
+        </div>
       </section>
     </main>
-
     <footer>
-      <p>Società Remiero - Via del Canottaggio, 1 - 00100 Roma</p>
-    </footer>
-
-    <script src="script.js"></script>
-  </body>
-</html>
+      <

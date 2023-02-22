@@ -1,47 +1,119 @@
 
-    box-sizing border-box
-  
-  
-  body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-  }
-  
-  /* Header styles */
-  header {
-    background-color: #3f50e9;
-    color: rgb(7, 3, 3);
-    text-align: center;
-    padding: 70px 0;
-  }
-  
-  nav {
-    margin: 30;
-  }
-  
-  nav ul {
-    list-style: none;
-    margin: 30;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-  }
-  
-  nav li {
-    margin: 0 10px;
-  }
-  
-  nav a {
-    color: rgb(12, 7, 7);
-    text-decoration: none;
-    font-weight: bold;
-  }
-  
-  /* Main styles */
-  .hero {
-    background-image: url('https://source.unsplash.com/nzQZVEgwV7Q/1600x900');
-    background-size: cover;
-    color: rgb(22, 5, 5);
-    text-align: center
-  }
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+  text-align: center;
+}
+
+/* Header del sito */
+header {
+  background-color: #3d3d3d;
+  color: #fff;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 32px;
+  margin: 0;
+}
+
+/* Navigazione del sito */
+nav {
+  display: inline-block;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Sezioni del sito */
+section {
+  margin: 50px auto;
+  max-width: 800px;
+}
+
+section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+section p {
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* Immagini che si alternano tra di loro */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 50px auto;
+  max-width: 800px;
+}
+
+.gallery img {
+  flex-basis: 33%;
+  margin: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.gallery img:hover {
+  transform: scale(1.2);
+}
+
+.gallery img:nth-child(even) {
+  transform: rotate(5deg);
+}
+
+.gallery img:nth-child(3n) {
+  transform: rotate(-5deg);
+}
+
+/* Form di iscrizione */
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 50px auto;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input,
+select {
+  border: none;
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+button {
+  background-color: #3d3d3d;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4d4d4d;
+}
