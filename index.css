@@ -25,19 +25,19 @@ nav {
 }
 
 nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+  list-style: upper-roman;
+  margin: 70;
+  padding: 70;
 }
 
 nav li {
   display: inline-block;
-  margin-right: 20px;
+  margin-right: 50px;
 }
 
 nav a {
-  color: #fff;
-  text-decoration: none;
+  color: #1147db;
+  text-decoration: blink;
 }
 
 /* Sezioni del sito */
@@ -48,12 +48,12 @@ section {
 
 section h2 {
   font-size: 24px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 section p {
-  line-height: 1.5;
-  margin-bottom: 20px;
+  line-height: 2.5;
+  margin-bottom: 50px;
 }
 
 /* Immagini che si alternano tra di loro */
@@ -115,5 +115,5 @@ button {
 }
 
 button:hover {
-  background-color: #4d4d4d;
+  background-color: #75b5f070;
 }
