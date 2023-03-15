@@ -1,120 +1,14 @@
 
-body {
-  background-color: #84c2eb77;
-  font-family: Arial, sans-serif;
-  font-size: 20px;
-  color: #333;
-  text-align: center;
-}
 
-/* Header del sito */
-header {
-  background-color: #56ddf549;
-  color: #4e8de0;
-  padding: 20px;
-}
 
-header h1 {
-  font-size: 32px;
-  margin: 0;
-}
 
-/* Navigazione del sito */
-nav {
-  display: inline-block;
-}
 
-nav ul {
-  list-style: upper-roman;
-  margin: 70;
-  padding: 70;
-}
 
-nav li {
-  display: inline-block;
-  margin-right: 50px;
-}
 
-nav a {
-  color: #1147db;
-  text-decoration: blink;
-}
 
-/* Sezioni del sito */
-section {
-  margin: 50px auto;
-  max-width: 800px;
-}
 
-section h2 {
-  font-size: 24px;
-  margin-bottom: 50px;
-}
 
-section p {
-  line-height: 2.5;
-  margin-bottom: 50px;
-}
 
-/* Immagini che si alternano tra di loro */
-.gallery {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 50px auto;
-  max-width: 800px;
-}
 
-.gallery img {
-  flex-basis: 33%;
-  margin: 5px;
-  transition: all 0.3s ease-in-out;
-}
 
-.gallery img:hover {
-  transform: scale(1.2);
-}
 
-.gallery img:nth-child(even) {
-  transform: rotate(5deg);
-}
-
-.gallery img:nth-child(3n) {
-  transform: rotate(-5deg);
-}
-
-/* Form di iscrizione */
-form {
-  display: flex;
-  flex-direction: column;
-  max-width: 400px;
-  margin: 50px auto;
-}
-
-label {
-  margin-bottom: 10px;
-}
-
-input,
-select {
-  border: none;
-  background-color: #fff;
-  padding: 10px;
-  margin-bottom: 20px;
-  border-radius: 5px;
-  width: 100%;
-}
-
-button {
-  background-color: #3d3d3d;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: #75b5f070;
-} .slideshow {
-  position: relative; };
