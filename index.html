@@ -1,63 +1,41 @@
 <html>
   <head>
-    <title>Centro Remiero</title>
+    <title>centro remiero</title>
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
     
     <header>
-      <h1>Centro Remiero</h1>
-      <nav>
-        <ul>
-          <li><a href="#chi-siamo">Chi siamo</a></li>
-          <li><a href="#cosa-facciamo">Cosa facciamo</a></li>
-          <li><a href="#modello-iscrizione">Modello di iscrizione</a></li>
-        </ul>
-      </nav>
+      <h1> <nav>
+        <a href="index.html">Home</a>
+        <a href="pagina1.html">Corsi e orari</a>
+        <a href="pagina2.html">Diventa socio</a>
+        <a href="pagina3.html">Le nostre strutture</a>
+        <a href="pagina4.html"> Eventi </a>
+      </nav></h1>
+      <div
+
     </header>
     <main>
-      <section id="chi-siamo"> 
+      <div class="chi-siamo">
         <h2>Chi siamo</h2>
+       
         <p><strong> Siamo il Centro Remiero,</strong> un'associazione sportiva che si occupa di promuovere il canottaggio tra i giovani e gli adulti della nostra città.</p>
         <p>Il nostro obiettivo è di far conoscere questo sport e di diffonderne i valori, come l'impegno, la determinazione, il rispetto e la collaborazione.</p>
-      </section>
-      <section id="cosa-facciamo">
-        <h2>Cosa facciamo</h2>
-        <p>Offriamo corsi di canottaggio per tutti i livelli, dai principianti ai più esperti.</p>
+     </div>
+     <div class="cosa-facciamo">
+        <h2><strong>cosa facciamo </strong></h2>
+        
+        <p> <strong> corsi di canottaggio per tutti i livelli,</strong> dai principianti ai più esperti.</p>
         <p>Organizziamo anche eventi e gare di canottaggio per coinvolgere la comunità e promuovere lo sport a livello locale e nazionale.</p>
-      </section>
-      <section id="modello-iscrizione">
-        <h2>Modello di iscrizione</h2>
-        <form>
-          <label for="nome">Nome:</label>
-          <input type="text" id="nome" name="nome" required>
-
-          <label for="cognome">Cognome:</label>
-          <input type="text" id="cognome" name="cognome" required>
-
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required>
-
-          <label for="livello">Livello:</label>
-          <select id="livello" name="livello">
-            <option value="principiante">Principiante</option>
-            <option value="intermedio">Intermedio</option>
-            <option value="avanzato">Avanzato</option>
-          </select>
-
-          <button type="submit">Invia</button>
-        </form>
-        <div class="slideshow">
-          
-        </div>
-      </section>
-      <section id="cosa-facciamo">
-        <h2>Immagini di Canottaggio</h2>
+      </div>
+     
+     
+     
+        
         <div class="gallery">
          
-          <img src="https://ezvubdgfvs2.exactdn.com/old/1_news/2020_2news/foto/varie/0829_pusiano/thumbnails/tnezgif-4-a1aad79cbfe8.jpg?strip=all&lossy=0&webp=82&avif=55&resize=800%2C533&ssl=1" alt="Canottaggio"
-          width="350" height="90">
-          <img src="https://media-cdn.tripadvisor.com/media/photo-s/0d/87/2b/22/lago-di-piediluco.jpg" alt="Canottaggio" width="350" height="90">
+          
         </div>
       </section>
     </main>
@@ -65,12 +43,15 @@
       <style>
         /* Stile per il menu di navigazione */
         nav {
-          background-color: #3652f0;
+          background-color: #adf3ea;
           overflow: hidden;
-        }
+        font-size: larger;
+        text-decoration: dashed;
+        
+      }
     
         nav a {
-          float: left;
+          float: center;
           color: rgb(3, 0, 7);
           text-align: center;
           padding: 14px 16px;
@@ -78,60 +59,51 @@
         }
     
         nav a:hover {
-          background-color: #2979d4;
+          background-color: #b4f2f7;
           color: rgb(14, 25, 26);
         }
       </style>
     </head>
-    <body>
-      <!-- Menu di navigazione -->
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="pagina1.html">Pagina 1</a>
-        <a href="pagina2.html">Pagina 2</a>
-        <a href="pagina3.html">Pagina 3</a>
-        <a href="contatti.html">Contatti</a>
-      </nav>
+   
     
-      <!-- Il contenuto della pagina qui -->
-     
-      <style>
-        /* Stile per le immagini */
-        img {
-          max-width: 100%;
-          height: auto;
-          display: block;
-          margin: auto;
-          margin-bottom: 20px;
-        }
-    
-        /* Stile per le informazioni sui corsi */
-        .corsi {
-          margin: 20px;
-          padding: 10px;
-          background-color: #befffc;
-        }
-      </style>
-    </head>
-    <body>
+    <footer>
+      <div class="footer-info">
+       <body>
+        
+       <p>Contattaci:</p>
+        <p>Email: info@nomedellazienda.it</p>
+        <p>Telefono: +99999999</p>
+        <p>Sede: Via del Corso, 123 - 00100 Roma</p> </body>
+      </div>
       
+    </footer>
+    <style>
+.footer-info {
+ font-size: large;
+  text-align: center;
+  background-color: #adf3ea;
+ position: fixed;
+ bottom: 0%;
+  width: 1750px;
+  height: 200px;
+ padding:70px;
+}
+.chi-siamo{
+  text-align: left;
+background-color: #adf3ea;
+padding: 20px;
+
+
+}
+
+.cosa-facciamo{
+background-color: #adf3ea;
+padding: 20px;
+text-align: right;
+}
+
+
+
+    </style>
     
-      <!-- Prima immagine -->
-      <img src="https://www.nostrofiglio.it/site_stored/imgs/0004/026/yj7a2836.jpg" alt="Canottaggio" width="250" height="400">
-    
-      <!-- Informazioni sui corsi -->
-      <div class="corsi">
-        <h2>Corsi di canottaggio per principianti</h2>
-        <p>Offriamo corsi di canottaggio per principianti che vogliono imparare le basi di questo sport emozionante. I nostri istruttori altamente qualificati vi insegneranno come utilizzare l'attrezzatura, i fondamenti della tecnica di canottaggio e le regole di sicurezza per godere appieno dell'esperienza.</p>
-      </div>
-    
-      <!-- Seconda immagine -->
-      <img src="https://www.canottiericernobbio.it/wp-content/uploads/2021/10/canottieri_cernobbio_adulti_20-930x620.jpeg" alt="Canottaggio" width="250" height="400">
-    
-      <!-- Informazioni sui corsi -->
-      <div class="corsi">
-        <h2>Corsi di canottaggio avanzati</h2>
-        <p>Per i canottieri esperti, offriamo anche corsi avanzati per migliorare la tecnica di canottaggio e la performance. I nostri istruttori con esperienza vi guideranno attraverso esercizi di allenamento avanzati e vi insegneranno come utilizzare la strategia di gara per raggiungere il successo.</p>
-      </div>
-      <p>Clicca <a href="orari.html">qui</a> per visualizzare gli orari e le giornate di canottaggio.</p>
-    </body>
+        

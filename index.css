@@ -1,5 +1,22 @@
-
-
+footer {
+    background-color: #b4f5f2;
+    color: #333;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .footer-info p {
+    margin: 0;
+    line-height: 1.5;
+  }
+  
+  .footer-logo {
+    margin-top: 10px;
+  }
+    
 
 
 
