@@ -1,31 +1,39 @@
 
 
+h1{text-align: center;
+background-color: aquamarine;
+color: rgb(0, 0, 0);
+}
 
+#cookie-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  color: #333;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
 
-footer {
-    background-color: #b4f5f2;
-    color: #333;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-  }
-  
-  .footer-info p {
-    margin: 0;
-    line-height: 1.5;
-  }
-  
-  .footer-logo {
-    margin-top: 10px;
-  }
-    
+#cookie-banner p {
+  display: inline-block;
+  margin: 0;
+  margin-right: 10px;
+}
 
-
-
-
-
+#accept-cookies {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+{
+<img src="immagini/home.jpg" alt="Immagine del Centro Remiero" style="height:200px;  style="position: absolute; ;">
+}
 
 
 
