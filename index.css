@@ -31,9 +31,44 @@ color: rgb(0, 0, 0);
   border-radius: 5px;
   cursor: pointer;
 }
+
+
 {
 <img src="immagini/home.jpg" alt="Immagine del Centro Remiero" style="height:200px;  style="position: absolute; ;">
 }
+
+    /* Stili CSS per il menu a tendina */
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      z-index: 1;
+    }
+    
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    
+    /* Stili CSS opzionali per la formattazione del menu */
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+    
+    .dropdown-content a:hover {
+      background-color: #f1f1f1;
+    }
+    
+    .dropdown:hover .dropdown-content a:hover {
+      background-color: #ddd;
+    }
+  
 
 
 
